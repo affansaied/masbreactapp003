@@ -30,7 +30,7 @@ jobs:
 
       #Install Yarn
     - name: Setup a yarn
-      uses: Borales/actions-yarn@v2.0.0
+      uses: borales/actions-yarn@v2.0.0
       with:
        cmd: install #will run 'yarn install' command
        
@@ -43,4 +43,4 @@ jobs:
       run: npm install -g surge
     
     - name: Deploy react to Surge
-      run: surge ./ http://masbreactapp003.surge.sh --token ${{secrets.MASBREACTAPP003_TOKEN}}
+      run: surge ./ https://masbreactapp003.surge.sh --token ${{secrets.reactoken_token}}
