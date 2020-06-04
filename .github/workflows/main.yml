@@ -43,4 +43,4 @@ jobs:
       run: npm install -g surge
     
     - name: Deploy react to Surge
-      run: surge ./ masbreactapp003.surge.sh --token ${{secrets.masbreactapp003_token}}
+      run: surge ./ http://masbreactapp003.surge.sh --token ${{secrets.MASBREACTAPP003_TOKEN}}
