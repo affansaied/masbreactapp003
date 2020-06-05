@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 
 function Mediacard(props){
 
-  return(<div>MediaTitle is {props.title} contains body data= {props.body} where image={props.imageurl} </div>);
+  return(<div>MediaTitle is <h1>{props.title}</h1> <br/>contains body <h2>data= {props.body} </h2> <br/> where image=<h3>{props.imageurl}</h3> </div>);
 }
 
 ReactDOM.render(
