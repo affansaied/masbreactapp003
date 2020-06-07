@@ -12,7 +12,7 @@ function Mediacard(props){
 
 function Isopen(props){
 
-return(<div> check session open = {props.opened==true? "Open" : "Closed"} </div>);
+return(<div> check session open = {props.opened===true? "Open" : "Closed"} </div>);
 }
 
 ReactDOM.render(
