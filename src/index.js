@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import './index.css';
-//import App from './App';
+import App from './App';
 //import * as serviceWorker from './serviceWorker';
 
 
@@ -16,14 +16,17 @@ return(<div> check session open = {props.opened==true? "Open" : "Closed"} </div>
 }
 
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
+   <React.StrictMode>
+     <App />
+   </React.StrictMode>,
 <Isopen opened='True' />
 ,
 <Mediacard title="React book title" body="React body" imageurl="https://360x7.com/media/image/329/maxstone-smart-wireless-camera-remote.jpg"/>
 , document.querySelector('#root')
 //,  document.getElementById('root')
+,
+React.createElement('div',null,React.createElement('span',null,"this is a span element")),
+
 );
 
 
