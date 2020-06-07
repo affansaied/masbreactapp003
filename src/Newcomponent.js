@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './Newcomponent.css';
+//import './Newcomponent.css';
 
 function Newcomponent() {
   return (
