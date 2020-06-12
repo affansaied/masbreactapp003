@@ -16,6 +16,7 @@ return(<div> check session open = {props.opened===true? "Open" : "Closed"} </div
 }
 
 ReactDOM.render(
+  <div><App name="Affan Saied" age="33"/> </div>
    <React.StrictMode>
      <App />
    </React.StrictMode>,

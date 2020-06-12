@@ -4,9 +4,10 @@ import './App.css';
 import Newcomponent from './Newcomponent';
 
 
-function App() {
+function App(props) {
   return (
     <div className="App">
+      this is a header Name={props.Name} and the Ages is={props.Age}
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
