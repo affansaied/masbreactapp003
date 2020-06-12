@@ -2,20 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import './index.css';
 import App from './App';
-import MyTestApp from './MyTestApp';
+//import MyTestApp from './MyTestApp';
 
-import * as serviceWorker from './serviceWorker';
+//import * as serviceWorker from './serviceWorker';
 
 
-function Mediacard(props){
+// function Mediacard(props){
 
-  return(<div>MediaTitle is <h1>{props.title}</h1> <br/>contains body <h2>data= {props.body} </h2> <br/> where image=<h3>{props.imageurl}</h3> </div>);
-}
+//   return(<div>MediaTitle is <h1>{props.title}</h1> <br/>contains body <h2>data= {props.body} </h2> <br/> where image=<h3>{props.imageurl}</h3> </div>);
+// }
 
-function Isopen(props){
+// function Isopen(props){
 
-return(<div> check session open = {props.opened===true? "Open" : "Closed"} </div>);
-}
+// return(<div> check session open = {props.opened===true? "Open" : "Closed"} </div>);
+// }
 
 ReactDOM.render(
      <div><App name="Affan Saied" age={35*2}/> </div>,
@@ -30,7 +30,7 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 //serviceWorker.unregister();
 
-{/* <React.StrictMode>
+/* { <React.StrictMode>
 <App />
 </React.StrictMode>,
 <Isopen opened='True' />,
@@ -39,4 +39,4 @@ ReactDOM.render(
 //,  document.getElementById('root')
 ,
 React.createElement('div',null,React.createElement('span',null,"this is a span element")),
- */}
+}*/

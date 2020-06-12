@@ -1,5 +1,5 @@
 import React from 'react';
-import Newcomponent from './Newcomponent';
+//import Newcomponent from './Newcomponent';
 import MyTestApp from './MyTestApp';
 
 
